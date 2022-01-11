@@ -6,7 +6,7 @@ import {
 import { Button, Col, Menu, Popover, Row, Select } from 'antd';
 import React, { useCallback, useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.svg';
+import logo from '../assets/Artboard 1.png';
 import styled from 'styled-components';
 import { useWallet } from '../utils/wallet';
 import { ENDPOINTS, useConnectionConfig } from '../utils/connection';
@@ -20,7 +20,7 @@ import AppSearch from './AppSearch';
 import { getTradePageUrl } from '../utils/markets';
 
 const Wrapper = styled.div`
-  background-color: #0d1017;
+  background-color: #0f52ba;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -47,7 +47,8 @@ const EXTERNAL_LINKS = {
   '/developer-resources': 'https://serum-academy.com/en/developer-resources/',
   '/explorer': 'https://solscan.io',
   '/srm-faq': 'https://projectserum.com/srm-faq',
-  '/swap': 'https://swap.projectserum.com',
+  '/swap': 'https://www.facswap.com/#/',
+  '/nftshop': 'https://solcollection.io/#/',
 };
 
 export default function TopBar() {
@@ -142,7 +143,7 @@ export default function TopBar() {
       <Wrapper>
         <LogoWrapper onClick={() => history.push(tradePageUrl)}>
           <img src={logo} alt="" />
-          {'SERUM'}
+          {'FAC Exchange'}
         </LogoWrapper>
         <Menu
           mode="horizontal"
@@ -167,6 +168,17 @@ export default function TopBar() {
                 rel="noopener noreferrer"
               >
                 SWAP
+              </a>
+            </Menu.Item>
+          )}
+          {!searchFocussed && (
+            <Menu.Item key="/nftshop" style={{ margin: '0 10px' }}>
+              <a
+                href={EXTERNAL_LINKS['/nftshop']}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                NFT SHOP
               </a>
             </Menu.Item>
           )}

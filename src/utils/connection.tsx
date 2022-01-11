@@ -7,7 +7,7 @@ import { ConnectionContextValues, EndpointInfo } from './types';
 
 export const ENDPOINTS: EndpointInfo[] = [
   {
-    name: 'mainnet-beta',
+    name: 'Mainnet',
     endpoint: 'https://solana-api.projectserum.com',
     custom: false,
   },

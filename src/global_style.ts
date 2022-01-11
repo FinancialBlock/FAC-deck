@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 html,body{
-  background: #11161D;
+  background: #00008b;
 }
 input[type=number]::-webkit-inner-spin-button {
   opacity: 0;
@@ -21,26 +21,26 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #5b5f67;
+  background: #003366;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #5b5f67;
 }
 .ant-slider-track, .ant-slider:hover .ant-slider-track {
-  background-color: #2abdd2;
+  background-color: #FFFFFF;
   opacity: 0.75;
 }
 .ant-slider-track,
 .ant-slider ant-slider-track:hover {
-  background-color: #2abdd2;
+  background-color: #0047ab;
   opacity: 0.75;
 }
 .ant-slider-dot-active,
 .ant-slider-handle,
 .ant-slider-handle-click-focused,
 .ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open)  {
-  border: 2px solid #2abdd2; 
+  border: 2px solid #0047ab; 
 }
 .ant-table-tbody > tr.ant-table-row:hover > td {
   background: #273043;
@@ -55,13 +55,13 @@ input[type=number]:focus::-webkit-inner-spin-button {
   border-top: 1px solid #434a59 !important;
 }
 .ant-layout {
-    background: #11161D
+    background: #003366
   }
   .ant-table {
     background: #212734;
   }
   .ant-table-thead > tr > th {
-    background: #1A2029;
+    background: #003366;
   }
 .ant-select-item-option-content {
   img {
