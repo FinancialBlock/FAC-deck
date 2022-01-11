@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/FAC-Dex/static/css/main.99ede3ff.chunk.css",
+    "main.js": "/FAC-Dex/static/js/main.be8c2ca8.chunk.js",
+    "main.js.map": "/FAC-Dex/static/js/main.be8c2ca8.chunk.js.map",
+    "runtime-main.js": "/FAC-Dex/static/js/runtime-main.884db402.js",
+    "runtime-main.js.map": "/FAC-Dex/static/js/runtime-main.884db402.js.map",
+    "static/css/2.3a0ac4c9.chunk.css": "/FAC-Dex/static/css/2.3a0ac4c9.chunk.css",
+    "static/js/2.b49731e8.chunk.js": "/FAC-Dex/static/js/2.b49731e8.chunk.js",
+    "static/js/2.b49731e8.chunk.js.map": "/FAC-Dex/static/js/2.b49731e8.chunk.js.map",
+    "index.html": "/FAC-Dex/index.html",
+    "precache-manifest.8d87945784df6a09ebb90238590c8b32.js": "/FAC-Dex/precache-manifest.8d87945784df6a09ebb90238590c8b32.js",
+    "service-worker.js": "/FAC-Dex/service-worker.js",
+    "static/css/2.3a0ac4c9.chunk.css.map": "/FAC-Dex/static/css/2.3a0ac4c9.chunk.css.map",
+    "static/css/main.99ede3ff.chunk.css.map": "/FAC-Dex/static/css/main.99ede3ff.chunk.css.map",
+    "static/js/2.b49731e8.chunk.js.LICENSE.txt": "/FAC-Dex/static/js/2.b49731e8.chunk.js.LICENSE.txt",
+    "static/media/Artboard 1.png": "/FAC-Dex/static/media/Artboard 1.98eafb0a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.884db402.js",
+    "static/css/2.3a0ac4c9.chunk.css",
+    "static/js/2.b49731e8.chunk.js",
+    "static/css/main.99ede3ff.chunk.css",
+    "static/js/main.be8c2ca8.chunk.js"
+  ]
+}
